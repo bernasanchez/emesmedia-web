@@ -25,6 +25,7 @@
 	<meta property="twitter:image" content="./src/media/img/destacada.png">
 	<!-- Assets -->
 	<link rel="shortcut icon" href="./src/media/svg/logo.svg" type="image/x-icon" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="./src/css/index.css" />
 	<!-- Title -->
 	<title>Emesmedia | We Nurture Your Business</title>
@@ -65,7 +66,7 @@
 	</header>
 	<!-- Hero -->
 	<section id="hero">
-      	<div class="container">
+      	<div class="container" data-aos="fade-up" data-aos-duration="1800" >
 			<div class="content-text">
 				<h2>We Nurture</h2>
 				<h2>Your Business</h2>
@@ -104,29 +105,29 @@
 	<section id="services">
 		<div class="container">
 			<div class="col one">
-				<div class="box-title-services">
+				<div class="box-title-services" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<h4>We’re ready </h4>
 					<h4>to serve you</h4>
 					<h4><span>differently</span></h4>
 					<img class="arrow-icon" src="./src/media/svg/icon_7.svg">
 				</div>
-				<p class="sub-title">We've worked with different types of clients.<br/>Let us know your needs so we can perform the best way together.</p>
-				<div id="marketing" class="card-service photo one">
+				<p class="sub-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">We've worked with different types of clients.<br/>Let us know your needs so we can perform the best way together.</p>
+				<div id="marketing" class="card-service photo one" data-aos="fade-right" >
 					<p>Marketing</p>
 					<img class="plus-icon" src="./src/media/svg/icon_8.svg">
 				</div>
-				<div id="SEO" class="card-service color one">
+				<div id="SEO" class="card-service color one" data-aos="fade-right" >
 					<p>SEO</p>
 					<img class="plus-icon" src="./src/media/svg/icon_8.svg">
 				</div>
 			</div>
 			<div class="col two">
 				<p class="sub-title">We've worked with different types of clients.<br/>Let us know your needs so we can perform the best way together.</p>
-				<div id="social-media" class="card-service color two">
+				<div id="social-media" class="card-service color two" data-aos="fade-left" >
 					<p>Social Media Management</p>
 					<img class="plus-icon" src="./src/media/svg/icon_8.svg">
 				</div>
-				<div id="content-creation" class="card-service photo two">
+				<div id="content-creation" class="card-service photo two" data-aos="fade-left"  data-aos-delay="100">
 					<p>Content Creation</p>
 					<img class="plus-icon" src="./src/media/svg/icon_8.svg">
 				</div>
@@ -218,6 +219,7 @@
 	<img id="btn-go-top" class="inactive" src="./src/media/svg/icon_2.svg" alt="Emesmedia" title="Emesmedia">
 </body>
 <!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./src/js/functions.js"></script>
 <script src="./src/js/modals.js"></script>
 

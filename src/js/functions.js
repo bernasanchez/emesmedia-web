@@ -1,3 +1,8 @@
+//Iniciar animaciones scroll AOS 
+AOS.init(
+  {easing: 'ease'}
+);
+
 // Mensaje en consola del creador del sitio
 {
   console.log(
