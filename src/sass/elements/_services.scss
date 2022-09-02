@@ -5,6 +5,7 @@ section#services {
     // Breakpoint for responsive design
     @media screen and (max-width: 550px) {
         padding: 60px 30px;
+        overflow: hidden;
     }
 
     & div.modal{
